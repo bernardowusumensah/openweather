@@ -19,12 +19,7 @@ This project demonstrates the use of the **OpenWeatherMap Current Weather Data A
 - Graceful error handling with visible user message
 - Single **named function** handles all city selections (stretch goal)
 
-## 📦 Files Included
 
-- `weather1.js`: Main JavaScript file with complete functionality (event listeners, API calls, DOM updates)
-- `weather.js`: Initial version for Toronto only (not reused in final version)
-- `index.html`: Not included here but assumed to contain required elements and button IDs (`Toronto`, `Vancouver`, etc.)
-- `README.md`: This file
 
 ## 🛠 Technologies Used
 
@@ -57,20 +52,3 @@ This project demonstrates the use of the **OpenWeatherMap Current Weather Data A
 - ✅ Single named function handles multiple cities
 - ✅ Dynamic `alt` text for weather icon from JSON data
 
-## 📌 Notes
-
-- The OpenWeatherMap API key is hardcoded: `37bbf33578315d604d43726b86ee17da`
-- Ensure HTML contains output container IDs:
-  - `output`, `location`, `temperature`, `conditions`, `humidity`, `wind`, `icon`, `error`
-
-## 🧠 Learning Objectives
-
-- Practice working with API data via `XMLHttpRequest`
-- Reinforce DOM manipulation and event handling
-- Interpret and apply API documentation
-- Develop clean, readable, and maintainable code
-- Handle asynchronous data flow and user interaction
-
-## 💬 Self-Reflection
-
-> _"This project helped reinforce my understanding of working with third-party APIs and handling asynchronous JavaScript without modern conveniences like fetch or async/await. I also improved my ability to debug API calls and dynamically update the DOM."_ – [Your Name]

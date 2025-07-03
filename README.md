@@ -1,14 +1,10 @@
  Weather API Application 🌤️
 
-**Course:** HTTP 5122 - Front-End Web  
-**Instructor:** Sean Doyle  
-**Student:** [Your Name]  
-**Semester:** Winter 2025  
-**Total Weight:** 9% of final grade
+
 
 ## 📋 Overview
 
-This assignment demonstrates the use of the **OpenWeatherMap Current Weather Data API** using pure JavaScript with `XMLHttpRequest()` to fetch and display current weather data for two cities: **Toronto** and **Vancouver**. The application adheres strictly to assignment constraints—**no fetch API, jQuery, or generative AI tools** were used.
+This project demonstrates the use of the **OpenWeatherMap Current Weather Data API** using pure JavaScript with `XMLHttpRequest()` to fetch and display current weather data for two cities: **Toronto** and **Vancouver**. The application adheres strictly to assignment constraints—**no fetch API, jQuery, or generative AI tools** were used.
 
 ## 🚀 Features
 

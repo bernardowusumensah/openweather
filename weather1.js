@@ -44,12 +44,15 @@ function getWeatherData(city) {
             // Reveal the output section
             output.style.display = "block";
 
+            // Clear any previous error messages
+            out_error.innerHTML = "";
+
             // Fill in the weather data
             out_location.innerHTML = DATA.name;
             out_temp.innerHTML = Math.round(DATA.main.temp) + "°C &#x1F321;";
             out_condition.innerHTML = DATA.weather[0].description;
-            out_humidity.innerHTML = DATA.main.humidity + "%";
-            out_wind.innerHTML = Math.round(DATA.wind.speed) + " m/s";
+            out_humidity.innerHTML = DATA.main.humidity + "% &#x1F4A7;";
+            out_wind.innerHTML = Math.round(DATA.wind.speed) + " m/s &#x1F32C;";
 
             // Weather icon
             var iconCode = DATA.weather[0].icon;

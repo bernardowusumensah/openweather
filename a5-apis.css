@@ -24,15 +24,25 @@ button{
 #choose_box{margin-bottom: 30px;}
 #buttons{margin-left:50px;}
 
+/* Weather image styling */
+.weather-image {
+	display: block;
+	margin: 20px auto;
+	max-width: 80%;
+	height: auto;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 #output {
 	display:none;
 	width: 90%;
-	margin: 0 auto;
-	padding: 0px 20px;
+	margin: 30px auto;
+	padding: 20px;
 	background-color: #f4f2c9;
 	border: 5px solid #265999;
 	border-radius: 10px;
-	
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #icon {
@@ -49,4 +59,22 @@ button{
 	font-family: monospace;
 	font-size: 2em;
 	padding-left: 5px;
+	color: #265999;
+	font-weight: bold;
+}
+
+/* Weather information styling */
+#output p {
+	margin: 15px 0;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 5px;
+	border-left: 4px solid #265999;
+}
+
+#output h3 {
+	text-align: center;
+	color: #265999;
+	margin-bottom: 25px;
+	font-size: 1.5em;
 }
